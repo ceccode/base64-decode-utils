@@ -14,8 +14,7 @@ View test files.
 ## Installation
 
 ```
-git clone git@github.com:ceccode/base64-decode-utils.git
-npm install
+npm install base64-decode-utils
 ```
 
 ## Run
