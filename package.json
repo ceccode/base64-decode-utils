@@ -1,6 +1,6 @@
 {
   "name": "base64-decode-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A (very) small library providing utility methods to decode base64 strings using Node Buffer API",
   "main": "index.js",
   "scripts": {

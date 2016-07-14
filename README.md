@@ -6,10 +6,6 @@ A small library providing utility methods to decode base64 strings using Node Bu
 [![Known Vulnerabilities](https://snyk.io/test/github/ceccode/base64-decode-utils/badge.svg)](https://snyk.io/test/github/ceccode/base64-decode-utils)
 [![https://david-dm.org/ceccode/base64-decode-utils.svg](https://david-dm.org/ceccode/base64-decode-utils.svg)](https://david-dm.org/ceccode/base64-decode-utils.svg)
 
-## API
-
-View test files.
-
 
 ## Installation
 
@@ -17,10 +13,26 @@ View test files.
 npm install base64-decode-utils
 ```
 
-## Run
+## Usage
 
 ```
-npm start
+const base64DecodeUtils = require('base64-decode-utils');
+
+
+const encoded = "SGVsbG8gV29ybGQh";
+base64DecodeUtils.decodeToString(encoded); //Hello World!
+
+```
+
+## API
+
+```
+  decodeToString(stream)
+  decodeToHex(stream)
+  decodeToUtf8FromHex(stream)
+  decodeToIntFromByte(stream)
+  decode(stream, 'string') //default decode byte stream to int
+
 ```
 
 ## Test
