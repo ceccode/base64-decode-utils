@@ -55,7 +55,7 @@ describe("decodeToIntFromByte", () => {
 describe("decodeToStringFromByte", () => {
   it("should decode base64 byte stream to string", () => {
 
-    const encoded = "SGVsbG8gV29ybGQh"; //00003E1E (in byte) //15902 (in int)
+    const encoded = "SGVsbG8gV29ybGQh"; //Hello World!
     const result = decode.decode(encoded, 'string');
 
     assert.typeOf(result, "string");
