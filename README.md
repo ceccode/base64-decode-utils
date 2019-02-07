@@ -13,7 +13,7 @@ A small library providing utility methods to decode base64 strings using Node Bu
 npm install base64-decode-utils
 ```
 
-## Usage
+## Usage
 
 ```
 const base64DecodeUtils = require('base64-decode-utils');
